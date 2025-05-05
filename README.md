@@ -4,7 +4,7 @@ This project sets up a basic VoIP system with internal calling, a conference roo
 
 Install Asterisk:
 <pre>sudo apt update
-sudo apt install asterisk -y</pre>  
+sudo apt install asterisk asterisk-dahdi-y</pre>  
 
 Copy project config files:
 <pre>sudo cp sip.conf /etc/asterisk/
